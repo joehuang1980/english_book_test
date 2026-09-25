@@ -1,11 +1,25 @@
 {
   "books": [
     {
+      "id": "the-land-of-magic-medicines",
+      "title": "The Land of Magic Medicines",
+      "author": "Enid Blyton",
+      "level": "A2",
+      "description": "Children and magical tree friends embark on an adventure to find medicine for a sick mother."
+    },
+    {
+      "id": "the-land-of-do-as-you-please",
+      "title": "The Land of Do As You Please",
+      "author": "Enid Blyton",
+      "level": "A2",
+      "description": "Join Joe, Beth, Franny, and Rick on a magical nighttime adventure to the Faraway Tree."
+    },
+    {
       "id": "the-land-of-toys",
       "title": "The Land of Toys",
       "author": "Enid Blyton",
       "level": "A2",
-      "description": "Join three children and their magical friends on a fun adventure to the Land of Toys!"
+      "description": "A magical Faraway Tree adventure where children visit the Land of Toys to rescue the Saucepan Man."
     },
     {
       "id": "the-land-of-joe-and-the-magic-snowman",

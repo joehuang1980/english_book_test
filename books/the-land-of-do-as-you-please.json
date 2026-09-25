@@ -1,0 +1,88 @@
+{
+  "id": "the-land-of-do-as-you-please",
+  "title": "The Land of Do As You Please",
+  "author": "Enid Blyton",
+  "level": "A2",
+  "description": "Join Joe, Beth, Franny, and Rick on a magical nighttime adventure to the Faraway Tree.",
+  "sets": [
+    {
+      "id": "a-message-and-the-journey",
+      "title": "A Message and the Nighttime Journey",
+      "passage": "One evening, Joe, Beth, Franny, and Rick received a note from their magical friends, Silky and Moonface. The note invited them to visit a wonderful realm at the top of the Faraway Tree called the Land of Do As You Please. Joe was hesitant at first, fearing they might run into trouble, but Beth and the others persuaded him to go.\n\nAt half-past eleven, the children crept downstairs into the dark garden and headed toward the Enchanted Wood. With lanterns illuminating the path, they reached the colossal Faraway Tree and climbed up using a hanging rope. Along the way, they passed busy pixies and goblins, finally reaching Moonface's house at the top. Finding a note on the door encouraging them to join their friends, the children excitedly dreamed of all the wonderful things they would do in the Land of Do As You Please.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What is the main topic of the passage?",
+          "choices": [
+            "Four children embark on a nighttime journey to visit a magical land at the Faraway Tree.",
+            "Moonface and Silky teach the children how to build a house in the Enchanted Wood.",
+            "Joe and Rick get lost in the dark garden while looking for lantern light.",
+            "The children decide to stay home and help their parents with house chores."
+          ],
+          "answer": 0,
+          "explanation": "The passage describes the children receiving an invitation and traveling through the Enchanted Wood to reach the Faraway Tree."
+        },
+        {
+          "id": "q2",
+          "prompt": "Who sent the note inviting the children to the Faraway Tree?",
+          "choices": [
+            "The angry pixie and goblins",
+            "Silky and Moonface",
+            "Mother and father",
+            "Rick and Joe"
+          ],
+          "answer": 1,
+          "explanation": "The passage states that Joe, Beth, Franny, and Rick received a note from their magical friends, Silky and Moonface."
+        },
+        {
+          "id": "q3",
+          "prompt": "Why was Joe initially reluctant to go on the adventure?",
+          "choices": [
+            "He was too tired to stay awake past midnight.",
+            "He was worried that something silly or dangerous might happen.",
+            "He did not like climbing trees or using ropes.",
+            "He wanted to wait for his parents to join them."
+          ],
+          "answer": 1,
+          "explanation": "Joe was hesitant at first because he feared they might run into trouble or danger on their journey."
+        },
+        {
+          "id": "q4",
+          "prompt": "In the passage, what does the word 'hesitant' mean?",
+          "choices": [
+            "Eager and excited to start",
+            "Unsure or slow to act due to uncertainty",
+            "Very loud and angry",
+            "Extremely skilled and fast"
+          ],
+          "answer": 1,
+          "explanation": "'Hesitant' describes someone who feels unsure or reluctant before making a decision or taking action."
+        },
+        {
+          "id": "q5",
+          "prompt": "How did the children reach the top of the Faraway Tree?",
+          "choices": [
+            "They flew up on giant magical birds.",
+            "They climbed up using a hanging rope.",
+            "They rode a hot air balloon above the clouds.",
+            "They slid up using the slippery slip."
+          ],
+          "answer": 1,
+          "explanation": "The passage mentions that they reached the Faraway Tree and climbed up using a hanging rope."
+        },
+        {
+          "id": "q6",
+          "prompt": "What can be inferred about the atmosphere in the Enchanted Wood at night?",
+          "choices": [
+            "It was completely abandoned and silent with no creatures around.",
+            "It was lively and filled with magical creatures going about their activities.",
+            "It was dangerous and frightening, causing everyone to run away.",
+            "It was brightly lit by sunshine despite being nighttime."
+          ],
+          "answer": 1,
+          "explanation": "The children passed busy pixies, goblins, and fairy folk using lanterns, showing that the wood was active and lively at night."
+        }
+      ]
+    }
+  ]
+}
