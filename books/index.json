@@ -1,6 +1,13 @@
 {
   "books": [
     {
+      "id": "the-land-of-goodies",
+      "title": "The Land of Goodies",
+      "author": "Enid Blyton",
+      "level": "A2",
+      "description": "A magical adventure where children visit a whimsical world made entirely of delicious sweets and treats."
+    },
+    {
       "id": "aesops-fables",
       "title": "Aesop's Fables",
       "author": "Aesop",
