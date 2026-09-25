@@ -1,0 +1,76 @@
+{
+  "id": "aesops-fables",
+  "title": "Aesop's Fables",
+  "author": "Aesop",
+  "level": "A2",
+  "description": "Short classic fables with a clear moral — good for early reading comprehension practice.",
+  "sets": [
+    {
+      "id": "boy-who-cried-wolf",
+      "title": "The Boy Who Cried Wolf",
+      "passage": "A shepherd boy watched his flock of sheep near a village. He grew bored, and to amuse himself he shouted, \"Wolf! Wolf! The wolf is chasing the sheep!\"\n\nThe villagers ran up the hill to help him, but when they arrived the boy only laughed. There was no wolf at all. The villagers went back down, annoyed.\n\nThe next day the boy did exactly the same thing, and again the villagers came running, and again they found nothing. They warned him not to raise a false alarm.\n\nOn the third day, a wolf really did come out of the forest and began to attack the sheep. The boy screamed, \"Wolf! Wolf!\" but this time the villagers stayed where they were. They thought it was another trick, and nobody came. The wolf scattered the whole flock.\n\nAn old man later told the boy: \"Nobody believes a liar, even when he is telling the truth.\"",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Why did the boy shout \"Wolf!\" the first time?",
+          "choices": [
+            "He saw a wolf near the sheep.",
+            "He was bored and wanted to amuse himself.",
+            "He wanted the villagers to take him home.",
+            "He had lost some of the sheep."
+          ],
+          "answer": 1,
+          "explanation": "The passage says he \"grew bored, and to amuse himself he shouted\" — the alarm was for his own entertainment."
+        },
+        {
+          "id": "q2",
+          "prompt": "How did the villagers react on the second day?",
+          "choices": [
+            "They ignored him completely.",
+            "They sent one person to check.",
+            "They came running again and warned him afterwards.",
+            "They took the sheep away from him."
+          ],
+          "answer": 2,
+          "explanation": "\"Again the villagers came running... They warned him not to raise a false alarm.\""
+        },
+        {
+          "id": "q3",
+          "prompt": "What does \"raise a false alarm\" mean in this story?",
+          "choices": [
+            "To warn people about a danger that is not real.",
+            "To shout more loudly than necessary.",
+            "To ask for help politely.",
+            "To make a loud noise to scare an animal."
+          ],
+          "answer": 0,
+          "explanation": "A false alarm is a warning about a danger that does not actually exist."
+        },
+        {
+          "id": "q4",
+          "prompt": "Why did nobody help the boy on the third day?",
+          "choices": [
+            "They were too far away to hear him.",
+            "They were afraid of the wolf.",
+            "They assumed he was lying again.",
+            "The old man told them to stay."
+          ],
+          "answer": 2,
+          "explanation": "\"They thought it was another trick\" — his earlier lies destroyed their trust."
+        },
+        {
+          "id": "q5",
+          "prompt": "What is the main lesson of the story?",
+          "choices": [
+            "Wolves are dangerous to sheep.",
+            "Children should not work as shepherds.",
+            "Villagers should always respond to a call for help.",
+            "Once you are known as a liar, people stop believing you."
+          ],
+          "answer": 3,
+          "explanation": "The old man states the moral directly: \"Nobody believes a liar, even when he is telling the truth.\""
+        }
+      ]
+    }
+  ]
+}

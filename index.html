@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>English Book Test</title>
+<meta name="description" content="Reading comprehension quizzes, one set per book.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="site-header">
+    <h1>English Book Test</h1>
+    <p>Reading comprehension quizzes, one set per book.</p>
+  </header>
+
+  <main id="main">
+    <p class="notice">Loading books…</p>
+  </main>
+</div>
+
+<script type="module">
+import { el, text, loadJSON } from './assets/util.js';
+import { bestScore } from './assets/storage.js';
+
+const main = document.getElementById('main');
+
+function bookCard(book) {
+  const best = bestScore(book.id);
+  const card = el('a', {
+    class: 'book-card',
+    href: `book.html?book=${encodeURIComponent(book.id)}`,
+  });
+
+  const title = el('h2');
+  title.append(text(book.title));
+  if (book.level) title.append(' ', el('span', { class: 'tag' }, book.level));
+  card.append(title);
+
+  if (book.author) card.append(el('p', { class: 'byline' }, book.author));
+  if (book.description) card.append(el('p', { class: 'blurb' }, book.description));
+  if (best) {
+    card.append(el('p', { class: 'blurb' },
+      `Best so far: ${best.correct}/${best.total}`));
+  }
+  return el('li', {}, card);
+}
+
+try {
+  const data = await loadJSON('books/index.json');
+  const books = Array.isArray(data.books) ? data.books : [];
+
+  if (books.length === 0) {
+    main.replaceChildren(el('p', { class: 'notice' },
+      'No books yet. Add one to books/index.json to get started.'));
+  } else {
+    main.replaceChildren(el('ul', { class: 'book-grid' }, ...books.map(bookCard)));
+  }
+} catch (err) {
+  main.replaceChildren(el('p', { class: 'notice' },
+    `Could not load the book list: ${err.message}`));
+}
+</script>
+</body>
+</html>
