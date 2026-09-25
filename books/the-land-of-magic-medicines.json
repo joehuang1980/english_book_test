@@ -1,0 +1,210 @@
+{
+  "id": "the-land-of-magic-medicines",
+  "title": "The Land of Magic Medicines",
+  "author": "Enid Blyton",
+  "level": "A2",
+  "description": "Children and magical tree friends embark on an adventure to find medicine for a sick mother.",
+  "sets": [
+    {
+      "id": "chapter-1-the-children-are-worried",
+      "title": "Chapter 1: The Children Are Worried",
+      "passage": "The children were very worried because their mother was ill in bed. The doctor came each day and told her to keep warm and rest. However, mother kept worrying about the washing she had promised to do for Mrs. Jones.\n\nWhen Moonface and Silky came to visit, they heard about the problem. Silky offered to take the dirty clothes to Dame Washalot, who loved washing and ironing clothes. When Dame Washalot saw the big basket of laundry, her face shone with joy. This kind act helped relieve mother's stress.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Why was mother unable to get out of bed?",
+          "choices": [
+            "She was ill and needed to rest",
+            "She was waiting for a friend",
+            "She was reading a long book",
+            "She was fixing the bed"
+          ],
+          "answer": 0,
+          "explanation": "The story states that mother was ill in bed, and the doctor advised her to rest and stay warm."
+        },
+        {
+          "id": "q2",
+          "prompt": "What can we infer about Dame Washalot from her reaction to the big basket of laundry?",
+          "choices": [
+            "She finds washing clothes genuinely enjoyable",
+            "She is upset about having extra work",
+            "She wants to charge the children money",
+            "She dislikes dirty clothes"
+          ],
+          "answer": 0,
+          "explanation": "Dame Washalot's face shone with joy when she saw the washing because doing laundry is her favorite activity."
+        },
+        {
+          "id": "q3",
+          "prompt": "In the passage, what is the meaning of the word 'worried'?",
+          "choices": [
+            "Feeling anxious or troubled about something",
+            "Feeling hungry and tired",
+            "Feeling excited and eager",
+            "Feeling bored and quiet"
+          ],
+          "answer": 0,
+          "explanation": "Being 'worried' means feeling anxious or troubled about a problem, such as mother's illness."
+        },
+        {
+          "id": "q4",
+          "prompt": "What is the main focus of Chapter 1?",
+          "choices": [
+            "The children worry about their sick mother, and magical friends offer help",
+            "The children travel to a faraway island to meet a doctor",
+            "Moonface buys a new slide for the treehouse",
+            "Saucepan Man loses his pots and pans"
+          ],
+          "answer": 0,
+          "explanation": "Chapter 1 focuses on mother's illness and how Moonface and Silky step in to help with her laundry."
+        },
+        {
+          "id": "q5",
+          "prompt": "Who washed and ironed Mrs. Jones's laundry for the family?",
+          "choices": [
+            "Dame Washalot",
+            "Mrs. Jones",
+            "The doctor",
+            "Saucepan Man"
+          ],
+          "answer": 0,
+          "explanation": "Silky explained that Dame Washalot would happily wash and iron everything for nothing."
+        }
+      ]
+    },
+    {
+      "id": "chapter-2-dame-washalots-good-idea",
+      "title": "Chapter 2: Dame Washalot's Good Idea",
+      "passage": "That night, Silky and Moonface went to collect the clean clothes. Dame Washalot had washed and ironed everything beautifully. Silky wished there was a way to make the children's mother well, but explained that nobody gets sick in the Faraway Tree, so there are no pharmacies.\n\nDame Washalot then remembered that the Land of Magic Medicines was visiting the top of the Faraway Tree the next day. Silky was delighted and immediately shared the exciting plan with Joe, Beth, and Rick. Franny willingly offered to stay behind to look after mother and do the washing up.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Why is medicine unavailable in the Faraway Tree itself?",
+          "choices": [
+            "Nobody gets sick in the Faraway Tree",
+            "The stores are closed for holiday",
+            "Medicine is too expensive to buy",
+            "The doctor locked up all the medicine"
+          ],
+          "answer": 0,
+          "explanation": "Silky points out that because nobody is ill in the Faraway Tree, there are no shops selling medicine."
+        },
+        {
+          "id": "q2",
+          "prompt": "Why did Franny stay behind while the other children went to the magical land?",
+          "choices": [
+            "Someone needed to take care of mother and wash up",
+            "She was afraid of climbing the ladder",
+            "Moonface asked her not to come",
+            "She was feeling sick herself"
+          ],
+          "answer": 0,
+          "explanation": "The children agreed that one person had to stay behind to care for mother, and Franny willingly volunteered."
+        },
+        {
+          "id": "q3",
+          "prompt": "What does the word 'delighted' mean when Silky heard Dame Washalot's idea?",
+          "choices": [
+            "Very happy and pleased",
+            "Slightly confused",
+            "Extremely tired",
+            "Quiet and afraid"
+          ],
+          "answer": 0,
+          "explanation": "'Delighted' means experiencing great pleasure or happiness about good news."
+        },
+        {
+          "id": "q4",
+          "prompt": "What is the central event in Chapter 2?",
+          "choices": [
+            "Dame Washalot tells Silky about the Land of Magic Medicines, leading to a mission",
+            "Moonface gets into an argument with Saucepan Man",
+            "The children decide to bake a cake for their mother",
+            "An angry pixie destroys the basket of clothes"
+          ],
+          "answer": 0,
+          "explanation": "The key turning point is Dame Washalot telling Silky that the Land of Magic Medicines is arriving tomorrow."
+        },
+        {
+          "id": "q5",
+          "prompt": "Which land was arriving at the top of the Faraway Tree?",
+          "choices": [
+            "The Land of Magic Medicines",
+            "The Land of Toffee Shocks",
+            "The Land of Do-As-You-Please",
+            "The Land of Toys"
+          ],
+          "answer": 0,
+          "explanation": "Dame Washalot informed Silky that the Land of Magic Medicines was coming the next day."
+        }
+      ]
+    },
+    {
+      "id": "chapter-3-the-journey-up-the-ladder",
+      "title": "Chapter 3: The Journey up the Ladder",
+      "passage": "Early the next morning, Joe, Beth, and Rick met Moonface and Silky at the top of the tree. They also invited Saucepan Man, who noisily joined them after hearing Moonface call down the trunk.\n\nTogether, the group prepared to climb the ladder into the cloud land. They were determined to find a magical cure that would heal mother and bring peace back to their home.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Which funny character joined the children on their expedition?",
+          "choices": [
+            "Saucepan Man",
+            "Mrs. Jones",
+            "The doctor",
+            "The angry pixie"
+          ],
+          "answer": 0,
+          "explanation": "Moonface shouted down the tree to Saucepan Man, who eagerly agreed to join them."
+        },
+        {
+          "id": "q2",
+          "prompt": "What is the group's main motivation for visiting the Land of Magic Medicines?",
+          "choices": [
+            "Their deep love and desire to heal their sick mother",
+            "Their curiosity to find sweet candy and toys",
+            "Their desire to escape doing household chores",
+            "A request from the doctor to buy supplies"
+          ],
+          "answer": 0,
+          "explanation": "The children and their magical friends go on the journey out of love and devotion to cure mother."
+        },
+        {
+          "id": "q3",
+          "prompt": "In the passage, what does 'determined' mean?",
+          "choices": [
+            "Having a firm decision not to give up",
+            "Feeling sleepy and weak",
+            "Being unsure about what to do next",
+            "Liking noisy games"
+          ],
+          "answer": 0,
+          "explanation": "Being 'determined' means having a fixed resolve and strong intent to accomplish a goal."
+        },
+        {
+          "id": "q4",
+          "prompt": "What key theme is highlighted as the group sets off on the adventure?",
+          "choices": [
+            "Cooperation, empathy, and love for family",
+            "The danger of climbing high trees",
+            "The importance of doing laundry quickly",
+            "How to make friends with saucepans"
+          ],
+          "answer": 0,
+          "explanation": "The chapter highlights how children and magical creatures unite out of care and love for mother."
+        },
+        {
+          "id": "q5",
+          "prompt": "Where do the visitors go to enter the magical land?",
+          "choices": [
+            "Up a ladder through the cloud at the top of the tree",
+            "Down a slide inside the tree trunk",
+            "Through a secret doorway in the cellar",
+            "Across a river near the forest"
+          ],
+          "answer": 0,
+          "explanation": "The magical land is located at the top of the Faraway Tree, reached by climbing a ladder into the cloud."
+        }
+      ]
+    }
+  ]
+}

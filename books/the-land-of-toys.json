@@ -3,163 +3,206 @@
   "title": "The Land of Toys",
   "author": "Enid Blyton",
   "level": "A2",
-  "description": "Join three children and their magical friends on a fun adventure to the Land of Toys!",
+  "description": "A magical Faraway Tree adventure where children visit the Land of Toys to rescue the Saucepan Man.",
   "sets": [
     {
-      "id": "chapter-1-the-saucepan-man-brings-news",
-      "title": "Chapter 1: The Saucepan Man Brings News",
-      "passage": "One day, the Saucepan Man visits Joe, Beth, and Franny to share exciting news. He tells them that a new land called the Land of Toys is coming to the top of the Faraway Tree the next morning. The Saucepan Man wears so many clanking pots and pans that he can hardly hear a word, so when Beth says \"we'll have fun\", he beams and asks for a bun instead.\n\nThe next day, the children climb the enormous Faraway Tree in the middle of the wood. On their way up, the tree grows blackberries and then pine cones. Finally, they reach Moonface's house at the top and enjoy magical 'Well-I-Never' rolls, which change flavors with every bite.",
+      "id": "chapter-1-silkys-news",
+      "title": "Chapter 1: Silky's News",
+      "passage": "One afternoon, Silky came to visit the children while they were working in the garden. She brought news from the Faraway Tree. The Saucepan Man wanted to host a party in Moonface's room.\n\nThe Saucepan Man thought the Land of Goodies was coming, so he planned to collect delicious treats in a big basket. Silky invited Joe, Beth, Franny, and Rick to come to the party the next day at three o'clock.\n\nSilky also brought magical sweets called toffee shocks. When Rick ate one, it grew bigger and bigger in his mouth until it suddenly exploded into nothing! Rick had never tasted a toffee shock before and had no idea what it would do, so the bang took him completely by surprise. Everyone laughed, and Rick thought the magical sweet was very funny.",
       "questions": [
         {
           "id": "q1",
-          "prompt": "Who brings the news about the Land of Toys to the children?",
+          "prompt": "Where did the Saucepan Man want to host his party?",
           "choices": [
-            "Moonface",
-            "Silky",
-            "The Saucepan Man",
-            "The Wobbly Man"
+            "In Moonface's room",
+            "In the children's garden",
+            "In the Land of Goodies",
+            "At Dame Washalot's house"
           ],
-          "answer": 2,
-          "explanation": "The Saucepan Man visits Joe, Beth, and Franny at their house to tell them about the Land of Toys coming to the top of the tree."
+          "answer": 0,
+          "explanation": "Silky mentioned that the Saucepan Man planned to collect treats and give a party in Moonface's room."
         },
         {
           "id": "q2",
-          "prompt": "What does the word \"enormous\" mean when describing the Faraway Tree?",
+          "prompt": "What happens when a person eats a 'toffee shock'?",
           "choices": [
-            "Very old",
-            "Very big",
-            "Very fast",
-            "Very quiet"
+            "It turns into ice cream.",
+            "It grows bigger until it explodes into nothing.",
+            "It makes the person float in the air.",
+            "It changes color from yellow to pink."
           ],
           "answer": 1,
-          "explanation": "\"Enormous\" means extremely large or huge, describing how tall and thick the tree was."
+          "explanation": "As described in the passage, a toffee shock gets bigger and bigger until it explodes and disappears."
         },
         {
           "id": "q3",
-          "prompt": "What is special about \"Well-I-Never\" rolls?",
+          "prompt": "Why was Rick surprised when eating the toffee shock?",
           "choices": [
-            "They never get cold.",
-            "They turn into gold when touched.",
-            "They change flavor with every bite.",
-            "They make people fall asleep immediately."
+            "He had never eaten one before and did not know what it would do.",
+            "He did not like the taste of the sweet.",
+            "Silky told him that the sweet was sour.",
+            "He was angry because the other children didn't get any."
           ],
-          "answer": 2,
-          "explanation": "Moonface's \"Well-I-Never\" rolls taste different with every bite, changing from cheese to chocolate, mint sauce, and roast lamb."
+          "answer": 0,
+          "explanation": "All the children except Rick had tried toffee shocks before, so Rick was unprepared for its sudden expansion."
         },
         {
           "id": "q4",
-          "prompt": "Why does the Saucepan Man ask for a bun when Beth says \"we'll have fun\"?",
+          "prompt": "In the passage, what does the word 'collect' mean?",
           "choices": [
-            "He wants to share food with Silky.",
-            "He mishears \"fun\" as \"bun\" due to his clanking pots.",
-            "He is selling buns for his aunt.",
-            "He wants to bake buns for the journey."
+            "To gather items together",
+            "To throw things away",
+            "To bake food in an oven",
+            "To hide under a tree"
           ],
-          "answer": 1,
-          "explanation": "Because the Saucepan Man wears noisy pots and pans, he cannot hear clearly and mistakes \"fun\" for \"bun\"."
+          "answer": 0,
+          "explanation": "To collect means to gather items together, as Saucepan Man planned to gather delicious treats."
         },
         {
           "id": "q5",
-          "prompt": "What fruit does the Faraway Tree produce near the start of the climb?",
-          "choices": [
-            "Apples",
-            "Blackberries",
-            "Strawberries",
-            "Bananas"
-          ],
-          "answer": 1,
-          "explanation": "At the beginning of their climb, Joe picks ripe blackberries growing on the Faraway Tree."
-        },
-        {
-          "id": "q6",
           "prompt": "What is the main idea of Chapter 1?",
           "choices": [
-            "The children buy toy soldiers from a market.",
-            "The children get lost in a dark forest.",
-            "The group prepares for an adventure to the Land of Toys and visits Moonface.",
-            "The Saucepan Man fixes his noisy pots."
+            "Silky invites the children to a party hosted by the Saucepan Man and shares magical sweets.",
+            "The children clean their entire house before dinner.",
+            "Rick gets lost inside the Enchanted Wood.",
+            "Moonface teaches the children how to climb the Faraway Tree."
           ],
-          "answer": 2,
-          "explanation": "Chapter 1 introduces the journey to the Land of Toys as the group gathers at Moonface's room."
+          "answer": 0,
+          "explanation": "Chapter 1 focuses on Silky informing the children about Saucepan Man's party and sharing toffee shocks."
         }
       ]
     },
     {
       "id": "chapter-2-the-land-of-toys",
       "title": "Chapter 2: The Land of Toys",
-      "passage": "The group climbs up the ladder into the cloud and enters the Land of Toys. To their surprise, the toys in the village are all alive, walking around, and as big as the children.\n\nMoonface and the Saucepan Man push a Wobbly Man over, and he is so upset that he goes straight to the Toy Soldier Captain to report them. Then Joe pulls a knob on a toy cannon by the wooden fort, and it goes off with a loud bang that frightens the village toys. The travelers are brought before the angry Captain, who orders them about in a loud, commanding voice. When fifty wooden soldiers try to take them to the dungeon, Joe pushes one soldier, causing the entire row to fall like dominoes. To avoid punishment, everyone cleverly pretends to be Clockwork toys.",
+      "passage": "The next afternoon, the children climbed the Faraway Tree to Moonface's house. However, the Saucepan Man had not returned from his trip above the cloud.\n\nSuddenly, a Wooden Soldier walked down the ladder from the cloud. Moonface asked him about the Land of Goodies, but the soldier replied that he lived in the Land of Toys and that the Land of Goodies would not arrive until next week.\n\nMoonface realized that the Saucepan Man had made a mistake and gone to the wrong land. Excited to see what it was like, the children and their friends decided to climb up to the Land of Toys.",
       "questions": [
         {
           "id": "q1",
-          "prompt": "What surprises the children when they arrive in the Land of Toys?",
+          "prompt": "Who came down the ladder from the cloud above the Faraway Tree?",
           "choices": [
-            "The toys are made of real gold.",
-            "The toys are alive and as big as humans.",
-            "The village is completely empty.",
-            "All the toys are broken."
+            "A Wooden Soldier in a guard uniform",
+            "The Saucepan Man with his kettles",
+            "An angry pixie with a lantern",
+            "A clockwork teddy bear"
           ],
-          "answer": 1,
-          "explanation": "When they reach the village, they notice teddy bears and dolls walking around and being as big as the children."
+          "answer": 0,
+          "explanation": "A Wooden Soldier wearing a red guard uniform walked down the ladder from the cloud."
         },
         {
           "id": "q2",
-          "prompt": "Why does the Wobbly Man report the visitors to the Toy Soldier Captain?",
+          "prompt": "When was the Land of Goodies actually supposed to arrive?",
           "choices": [
-            "Because they stole his hat.",
-            "Because they pushed him over and upset him.",
-            "Because they refused to eat his food.",
-            "Because they lost their way in the village."
+            "Next week",
+            "The next day",
+            "In three months",
+            "It was already there"
           ],
-          "answer": 1,
-          "explanation": "The Saucepan Man and Moonface push the Wobbly Man over, which angers him enough to report them to the Captain."
+          "answer": 0,
+          "explanation": "The Wooden Soldier explained that the Land of Goodies would not arrive until next week."
         },
         {
           "id": "q3",
-          "prompt": "What happens when Joe pulls the knob on the toy cannon at the fort?",
+          "prompt": "Why was Moonface worried about the Saucepan Man?",
           "choices": [
-            "It plays a merry song.",
-            "It fires with a loud bang and frightens the village toys.",
-            "It turns into a clockwork clown.",
-            "It shoots colorful fireworks into the sky."
+            "Because Saucepan Man went to the wrong land and might be confused.",
+            "Because Saucepan Man ate all the popcakes by himself.",
+            "Because Saucepan Man lost his kettles in the garden.",
+            "Because Saucepan Man fell off the Faraway Tree."
           ],
-          "answer": 1,
-          "explanation": "Joe pulls the knob on the cannon, causing it to go off with a loud bang and frighten the villagers."
+          "answer": 0,
+          "explanation": "Moonface knew Saucepan Man made a mistake going to the Land of Toys thinking it was the Land of Goodies."
         },
         {
           "id": "q4",
-          "prompt": "What does the word \"commanding\" mean when describing the Captain's voice?",
+          "prompt": "What does the word 'realized' mean in the passage?",
           "choices": [
-            "Soft and quiet",
-            "Strong and giving orders",
-            "Confused and worried",
-            "Funny and silly"
+            "Understood or became aware of a fact",
+            "Forgot something important",
+            "Shouted loudly in anger",
+            "Built a wooden house"
           ],
-          "answer": 1,
-          "explanation": "\"Commanding\" describes a firm, authoritative tone used when giving orders."
+          "answer": 0,
+          "explanation": "'Realized' means to suddenly understand or become aware of something."
         },
         {
           "id": "q5",
-          "prompt": "How do the fifty toy soldiers fall down all at once?",
+          "prompt": "What is the main event of Chapter 2?",
           "choices": [
-            "Joe uses a magic spell.",
-            "The Captain orders them to lie down.",
-            "Joe pushes one soldier, knocking them all over like dominoes.",
-            "A strong wind blows them down."
-          ],
-          "answer": 2,
-          "explanation": "Joe pushes the nearest wooden soldier, who knocks down the next soldier, creating a domino effect that knocks down all fifty soldiers."
-        },
-        {
-          "id": "q6",
-          "prompt": "What is the main idea of Chapter 2?",
-          "choices": [
-            "The visitors get into silly trouble in Toyland but escape the dungeon by acting like toys.",
-            "The Saucepan Man finds his aunt and buys many presents.",
-            "The Toy Soldiers capture Moonface and force him to build a fort.",
-            "The children decide to live in the wooden tower forever."
+            "The group discovers Saucepan Man went to the Land of Toys by mistake and decides to go there.",
+            "The children wear their best clothes to climb the tree.",
+            "Silky bakes popcakes for the Wooden Soldier.",
+            "Moonface cleans his room with a broom."
           ],
           "answer": 0,
-          "explanation": "Chapter 2 recounts how the travelers cause accidental trouble in Toyland and escape being locked in a dungeon by tricking the Captain into thinking they are toys."
+          "explanation": "Chapter 2 centers on discovering Saucepan Man's mistake and deciding to enter the Land of Toys."
+        }
+      ]
+    },
+    {
+      "id": "chapter-3-saucepan-gets-into-trouble",
+      "title": "Chapter 3: Saucepan Gets Into Trouble",
+      "passage": "The Land of Toys was full of giant dollhouses, toy shops, stuffed animals, and clockwork toys walking about. The children looked everywhere for the Saucepan Man.\n\nMoonface stopped a big Teddy Bear to ask if he had seen their friend. The Teddy Bear said that the Saucepan Man was locked in jail because he tried to take toffee from a shop without paying.\n\nMoonface explained that Saucepan Man thought he was in the Land of Goodies, where taking food is allowed. When the group asked the Toy Policeman where Saucepan Man was, the policeman angrily refused to tell them. Joe declared that they must rescue their friend.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Why was the Saucepan Man put into jail?",
+          "choices": [
+            "He tried to take toffee from a shop without paying.",
+            "He broke a giant dollhouse.",
+            "He shouted too loudly at the Wooden Soldiers.",
+            "He stole a clockwork train."
+          ],
+          "answer": 0,
+          "explanation": "The Teddy Bear told them that Saucepan Man tried to take toffee from a shop and was locked up for stealing."
+        },
+        {
+          "id": "q2",
+          "prompt": "Why did the Saucepan Man take the toffee without paying?",
+          "choices": [
+            "He thought he was in the Land of Goodies where items can be taken freely.",
+            "He wanted to trick the Toy Policeman.",
+            "He did not have his basket with him.",
+            "He thought the shop belonged to Moonface."
+          ],
+          "answer": 0,
+          "explanation": "In the Land of Goodies, taking food is permitted, and Saucepan Man did not realize he was in the Land of Toys."
+        },
+        {
+          "id": "q3",
+          "prompt": "What does the word 'refused' mean in the passage?",
+          "choices": [
+            "Said no or declined to do something",
+            "Agreed happily",
+            "Ran away quickly",
+            "Paid for an item"
+          ],
+          "answer": 0,
+          "explanation": "'Refused' means saying no or declining to grant a request."
+        },
+        {
+          "id": "q4",
+          "prompt": "How did the Toy Policeman react when asked about the Saucepan Man?",
+          "choices": [
+            "He spoke angrily and refused to tell them where the jail was.",
+            "He smiled and gave them directions.",
+            "He gave them free toffees.",
+            "He escorted them to Moonface's house."
+          ],
+          "answer": 0,
+          "explanation": "The Toy Policeman became angry and explicitly refused to reveal where Saucepan Man was being held."
+        },
+        {
+          "id": "q5",
+          "prompt": "What is the main idea of Chapter 3?",
+          "choices": [
+            "The group learns Saucepan Man was wrongfully jailed in the Land of Toys and decides to rescue him.",
+            "The children buy clockwork toys at the shop.",
+            "The Toy Policeman invites everyone to a party.",
+            "The Teddy Bear shows the children how to drive a train."
+          ],
+          "answer": 0,
+          "explanation": "The main focus is finding out that Saucepan Man was arrested by mistake and planning his rescue."
         }
       ]
     }
