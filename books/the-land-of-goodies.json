@@ -1,0 +1,143 @@
+{
+  "id": "the-land-of-goodies",
+  "title": "The Land of Goodies",
+  "author": "Enid Blyton",
+  "level": "A2",
+  "description": "A magical adventure where children visit a whimsical world made entirely of delicious sweets and treats.",
+  "sets": [
+    {
+      "id": "chapter-1-the-woodpecker-brings-a-note",
+      "title": "Chapter 1: The Woodpecker Brings a Note",
+      "passage": "Joe, Beth, Franny, and Rick were usually good children, but they had been careless lately. Rick and Joe quarrelled and broke a table. Beth scorched a tablecloth while ironing, and Franny tore her clothes picking blackberries.\n\nBecause they had been in trouble, they were afraid they couldn't ask to visit the Faraway Tree. Moonface and Silky waited for them, but the Land of Goodies was going to leave soon. So they sent a message using a woodpecker. The woodpecker flew to their cottage and tapped on the window with a note.\n\nMother read the note. She was pleased that the children tried their best to fix their mistakes. She kindly gave them permission to visit the Faraway Tree the next morning.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Why were the children afraid to ask their mother if they could visit the Faraway Tree?",
+          "choices": [
+            "They had been careless and got into trouble recently.",
+            "They had lost the key to the magical doorway.",
+            "Their mother was sick and resting in bed.",
+            "The Faraway Tree had completely disappeared."
+          ],
+          "answer": 0,
+          "explanation": "The children felt guilty because they broke a table, scorched a tablecloth, and tore clothing recently."
+        },
+        {
+          "id": "q2",
+          "prompt": "What does the word 'scorched' mean in the passage?",
+          "choices": [
+            "Washed with soap and water.",
+            "Slightly burned with a hot iron.",
+            "Cut into small pieces with scissors.",
+            "Folded neatly and put away."
+          ],
+          "answer": 1,
+          "explanation": "Beth scorched the tablecloth while ironing it, which means it was slightly burned by heat."
+        },
+        {
+          "id": "q3",
+          "prompt": "How did Moonface and Silky deliver their note to the children?",
+          "choices": [
+            "An owl carried it through the chimney.",
+            "A woodpecker tapped on the window with it.",
+            "A magic wind blew it under the front door.",
+            "Saucepan Man dropped it off in a cooking pot."
+          ],
+          "answer": 1,
+          "explanation": "A woodpecker flew to the cottage and tapped on the window with the note."
+        },
+        {
+          "id": "q4",
+          "prompt": "Why did Mother decide to let the children visit the Land of Goodies?",
+          "choices": [
+            "She wanted them to buy groceries for the family.",
+            "She saw that they worked hard to fix their mistakes.",
+            "She wanted to visit the Faraway Tree herself.",
+            "The woodpecker threatened to break the window."
+          ],
+          "answer": 1,
+          "explanation": "Mother recognized that although the children had made mistakes, they did their best to put things right."
+        },
+        {
+          "id": "q5",
+          "prompt": "What is the main idea of this chapter?",
+          "choices": [
+            "How four children learned how to cook and iron clothes.",
+            "A story about a woodpecker building a nest near a cottage.",
+            "Children earning permission to visit a magical land after making amends.",
+            "Moonface and Silky moving to a new forest."
+          ],
+          "answer": 2,
+          "explanation": "The chapter focuses on the children making up for their careless mistakes and receiving permission to visit the Land of Goodies."
+        }
+      ]
+    },
+    {
+      "id": "chapter-2-up-to-the-land-of-goodies",
+      "title": "Chapter 2: Up to the Land of Goodies",
+      "passage": "The children were so excited that they skipped meals to make sure they were hungry. They ran to the Faraway Tree and climbed up to meet Moonface, Silky, and Saucepan Man. Together, they climbed the ladder into the Land of Goodies.\n\nIt was an extraordinary place where everything was edible. The houses and shops were made of sugar, chocolate, gingerbread, and marzipan. The first house Joe saw had walls of sugar, chimneys of chocolate, and window sills of peppermint cream. Trees grew muffins and cakes, and bushes bore lollipops and ice cream flowers. A white fence was made entirely of delicious marshmallow.\n\nIn a hot dog shop, a flat brown man made of gingerbread turned a machine that made fresh rolls. The children happily bought hot dogs and explored the wonderful sweet paradise.",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What were the window sills of the first house made of?",
+          "choices": [
+            "Peppermint cream.",
+            "White chocolate.",
+            "Hard candy.",
+            "Gingerbread."
+          ],
+          "answer": 0,
+          "explanation": "The first house Joe saw had sugar walls, chocolate chimneys, and peppermint cream window sills."
+        },
+        {
+          "id": "q2",
+          "prompt": "What was the white fence in the Land of Goodies made of?",
+          "choices": [
+            "Cotton candy.",
+            "Marshmallow.",
+            "Vanilla ice cream.",
+            "White chocolate."
+          ],
+          "answer": 1,
+          "explanation": "The children found a white fence made entirely of soft, delicious marshmallow."
+        },
+        {
+          "id": "q3",
+          "prompt": "What does the word 'edible' mean as used in the passage?",
+          "choices": [
+            "Safe and good to eat.",
+            "Very hard to break.",
+            "Shiny and colorful.",
+            "Floating in the air."
+          ],
+          "answer": 0,
+          "explanation": "'Edible' means that something can be eaten. In the Land of Goodies, houses and plants are all made of food."
+        },
+        {
+          "id": "q4",
+          "prompt": "Why did the children decide not to eat before going to the Land of Goodies?",
+          "choices": [
+            "They were punished by their mother.",
+            "They wanted to save room to eat lots of treats there.",
+            "They did not like the food at home.",
+            "They were feeling sick from climbing the tree."
+          ],
+          "answer": 1,
+          "explanation": "They skipped meals to make sure they were hungry, because a land made of sweets is best enjoyed on an empty stomach."
+        },
+        {
+          "id": "q5",
+          "prompt": "What is the main idea of Chapter 2?",
+          "choices": [
+            "How Saucepan Man lost his cooking pots on the tree.",
+            "The children's magical journey and discovery of an all-edible sweet world.",
+            "A recipe book for making gingerbread men and hot dogs.",
+            "Why climbing the Faraway Tree is dangerous for children."
+          ],
+          "answer": 1,
+          "explanation": "Chapter 2 describes the children travelling up the Faraway Tree and exploring the magical, edible Land of Goodies."
+        }
+      ]
+    }
+  ]
+}
