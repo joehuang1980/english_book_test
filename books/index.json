@@ -1,6 +1,13 @@
 {
   "books": [
     {
+      "id": "the-land-of-toys",
+      "title": "The Land of Toys",
+      "author": "Enid Blyton",
+      "level": "A2",
+      "description": "Join three children and their magical friends on a fun adventure to the Land of Toys!"
+    },
+    {
       "id": "the-land-of-joe-and-the-magic-snowman",
       "title": "The Land of Joe and the Magic Snowman",
       "author": "Enid Blyton",

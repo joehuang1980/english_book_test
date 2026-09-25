@@ -17,6 +17,36 @@ const warn = (file, msg) => warnings.push(`${file}: ${msg}`);
 
 const ID_PATTERN = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
+// Shortest quoted span worth checking. Below this it is usually a letter
+// label or a stray apostrophe rather than a word being tested.
+const MIN_QUOTED_LENGTH = 3;
+
+/** Lowercase, straighten curly quotes, and collapse whitespace. */
+function normalise(text) {
+  return text
+    .replace(/[‘’]/g, "'")
+    .replace(/[“”]/g, '"')
+    .replace(/\s+/g, ' ')
+    .toLowerCase()
+    .trim();
+}
+
+/**
+ * Quoted spans inside a question prompt — the word or line the question is
+ * testing. Single quotes only count with a boundary on each side, so that
+ * apostrophes in "Moonface's" or "don't" are not mistaken for quotes.
+ */
+function quotedSpans(prompt) {
+  const text = prompt.replace(/[“”]/g, '"').replace(/[‘’]/g, "'");
+  const spans = [
+    ...text.matchAll(/"([^"]+)"/g),
+    ...text.matchAll(/(?:^|[\s(])'([^']+)'(?=[\s.,!?;:)]|$)/g),
+  ];
+  return spans
+    .map((m) => m[1].trim())
+    .filter((s) => s.length >= MIN_QUOTED_LENGTH);
+}
+
 async function readJSON(path, label) {
   let raw;
   try {
@@ -45,13 +75,37 @@ function checkString(value, file, where, { required = true } = {}) {
   return true;
 }
 
-function checkQuestion(question, file, where) {
+/**
+ * A vocabulary question quotes the word or line it is testing. When that text
+ * is missing from the passage, the reader has nothing to work it out from and
+ * the question is unanswerable however good the options are — a mistake the
+ * shape checks above cannot see, since such a question is perfectly well
+ * formed. Sets without a passage are skipped: there is nothing to check against.
+ */
+function checkQuotedAgainstPassage(question, passage, file, where) {
+  if (typeof passage !== 'string' || passage.trim() === '') return;
+  if (typeof question.prompt !== 'string') return;
+
+  const haystack = normalise(passage);
+  for (const quoted of quotedSpans(question.prompt)) {
+    if (!haystack.includes(normalise(quoted))) {
+      error(
+        file,
+        `${where}.prompt quotes "${quoted}", which does not appear in the passage, ` +
+        `so the question cannot be answered by reading it`
+      );
+    }
+  }
+}
+
+function checkQuestion(question, passage, file, where) {
   if (typeof question !== 'object' || question === null) {
     error(file, `${where} must be an object`);
     return;
   }
 
   checkString(question.prompt, file, `${where}.prompt`);
+  checkQuotedAgainstPassage(question, passage, file, where);
   checkString(question.explanation, file, `${where}.explanation`, { required: false });
 
   if (!Array.isArray(question.choices)) {
@@ -120,7 +174,7 @@ function checkBook(book, file, expectedId) {
       return;
     }
     set.questions.forEach((question, qi) => {
-      checkQuestion(question, file, `${where}.questions[${qi}]`);
+      checkQuestion(question, set.passage, file, `${where}.questions[${qi}]`);
     });
   });
 }
