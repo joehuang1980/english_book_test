@@ -1,0 +1,167 @@
+{
+  "id": "the-land-of-joe-and-the-magic-snowman",
+  "title": "The Land of Joe and the Magic Snowman",
+  "author": "Enid Blyton",
+  "level": "A2",
+  "description": "Joe peeps into the Land of Ice and Snow and is caught by a lonely Magic Snowman who makes him a servant.",
+  "sets": [
+    {
+      "id": "chapter-1-beth-makes-some-toffee-for-moonface",
+      "title": "Chapter 1: Beth Makes Some Toffee for Moonface",
+      "passage": "On Wednesday, Beth made the sweetest chew toffee on the stove to take to Moonface as payment for the slippery slide. That night, Joe, Beth, and Franny crept into the Enchanted Wood under the moonlight. The children were astonished by what they saw. The wood was filled with dancing fairies, elves growing toadstools and laying out lemonade and tiny cakes on them, and market stalls selling acorn necklaces.\n\nWhen they climbed the Faraway Tree, they visited Moonface at the top and gave him the bag of toffee. Moonface stuffed four pieces into his mouth, sticking his teeth together so he could only say 'ubble ubble ubble'. Unable to understand Moonface's muffled warnings, Joe decided to peep into the strange cloud land at the top of the tree, only to be grabbed by an unknown creature!",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Why did Beth make chew toffee for Moonface?",
+          "choices": [
+            "To pay him for using the slippery slide",
+            "To trade for acorn necklaces from the elves",
+            "To celebrate Franny's birthday",
+            "To feed the hungry animals in the wood"
+          ],
+          "answer": 0,
+          "explanation": "Beth promised to bring toffee to Moonface to pay for their previous and future rides down the slippery slide."
+        },
+        {
+          "id": "q2",
+          "prompt": "What strange sight did Franny see while walking through the Enchanted Wood at night?",
+          "choices": [
+            "Fairies baking giant loaves of bread",
+            "Elves growing toadstools and setting out tiny cakes",
+            "Bears climbing up the Faraway Tree",
+            "Snowmen selling colored lanterns"
+          ],
+          "answer": 1,
+          "explanation": "Franny watched elves grow toadstools quickly and lay cloths on them with lemonade and tiny cakes."
+        },
+        {
+          "id": "q3",
+          "prompt": "Why was Moonface unable to clearly warn Joe about the land above the cloud?",
+          "choices": [
+            "He was sleeping soundly in his bed",
+            "His teeth were stuck together by sticky chew toffee",
+            "He did not know which land was currently above the tree",
+            "He was singing a loud song with the Saucepan Man"
+          ],
+          "answer": 1,
+          "explanation": "Moonface had crammed four pieces of sticky toffee into his mouth, gluing his teeth together so he could only make muffled sounds."
+        },
+        {
+          "id": "q4",
+          "prompt": "In the story, what does the word 'astonished' mean when the children saw the Enchanted Wood?",
+          "choices": [
+            "Frightened and angry",
+            "Very surprised and amazed",
+            "Bored and sleepy",
+            "Lost and confused"
+          ],
+          "answer": 1,
+          "explanation": "The children were astonished because they were amazed and surprised by all the magical activities in the wood."
+        },
+        {
+          "id": "q5",
+          "prompt": "What is the main idea of Chapter 1?",
+          "choices": [
+            "The children bake sweets at home with their mother",
+            "The children visit the magical wood and Joe pokes his head into a dangerous land",
+            "Moonface teaches the children how to build a snow house",
+            "Franny and Beth buy jewelry at the fairy market"
+          ],
+          "answer": 1,
+          "explanation": "Chapter 1 focuses on the journey to the Faraway Tree and Joe ignores warnings to peep into the mysterious land above."
+        },
+        {
+          "id": "q6",
+          "prompt": "What caused Joe to make the mistake of peeping into the land at the top?",
+          "choices": [
+            "He wanted to find a lost seal",
+            "He assumed Moonface's muffled noises were harmless and was too curious",
+            "Beth pushed him up the ladder",
+            "The Saucepan Man told him to go"
+          ],
+          "answer": 1,
+          "explanation": "Joe thought Moonface was just mumbling while eating and carelessly believed peeping for a moment would cause no harm."
+        }
+      ]
+    },
+    {
+      "id": "chapter-2-joe-and-the-magic-snowman",
+      "title": "Chapter 2: Joe and the Magic Snowman",
+      "passage": "After being lifted right off the ladder, Joe found himself in the Land of Ice and Snow, where both the sun and moon shone together. A large Snowman with a carrot nose had captured Joe, believing he was a seal coming up through the ice hole to breathe. To Joe's horror, the hole back down the Faraway Tree froze solid with thick ice.\n\nFeeling lonely and angry at the children who had created and abandoned him long ago, the Snowman made himself king and demanded that Joe become his servant. There were only polar bears and penguins in that dull land, and not one of them could speak his language. 'I don't want to be your servant,' said Joe indignantly, but the Snowman only laughed. He ordered Joe to cut blocks of stiff snow with a shovel to build him a round house. Though Joe built a neat house and received a soft white wool coat, the cramped house caused new trouble when the Snowman pushed Joe out!",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Why did the Snowman initially stand by the hole in the ice?",
+          "choices": [
+            "He was waiting for a seal to come up to breathe",
+            "He was waiting for polar bears to bring him food",
+            "He wanted to jump down the Faraway Tree",
+            "He was looking for his lost carrot nose"
+          ],
+          "answer": 0,
+          "explanation": "The Snowman thought Joe was a seal coming up through the ice hole to breathe."
+        },
+        {
+          "id": "q2",
+          "prompt": "Why couldn't Joe escape back down the ladder to the Faraway Tree?",
+          "choices": [
+            "The ladder broke into pieces",
+            "A thick layer of ice froze over the hole",
+            "Moonface locked the door from below",
+            "The polar bears guarded the ladder entrance"
+          ],
+          "answer": 1,
+          "explanation": "Joe saw to his dismay that a thick layer of ice had frozen over the hole."
+        },
+        {
+          "id": "q3",
+          "prompt": "Why did the Snowman want a human servant like Joe?",
+          "choices": [
+            "He needed someone to cook hot soup for him",
+            "He was lonely because polar bears and penguins could not speak his language",
+            "He wanted someone to teach him how to ski",
+            "He needed someone to guard his gold treasure"
+          ],
+          "answer": 1,
+          "explanation": "The Snowman complained that there were only bears and penguins in the dull land, and he wanted a servant who could talk to him."
+        },
+        {
+          "id": "q4",
+          "prompt": "What does the word 'indignantly' mean when Joe said 'I don't want to be your servant'?",
+          "choices": [
+            "In a happy and excited voice",
+            "In an angry and offended manner",
+            "In a quiet whisper",
+            "In a cheerful and playful way"
+          ],
+          "answer": 1,
+          "explanation": "Indignantly describes speaking with feeling offended or annoyed at being treated unfairly."
+        },
+        {
+          "id": "q5",
+          "prompt": "What is the central conflict in Chapter 2?",
+          "choices": [
+            "Joe tries to build a snowman in his back garden",
+            "Joe is trapped by the Magic Snowman and forced to work as his servant",
+            "Beth and Franny slide down the slippery slide",
+            "The polar bears attack the Faraway Tree"
+          ],
+          "answer": 1,
+          "explanation": "Chapter 2 centers around Joe being trapped in the Land of Ice and Snow and forced to build a house for his captor, the Snowman."
+        },
+        {
+          "id": "q6",
+          "prompt": "How did the Snowman react when Joe finished building the snow house?",
+          "choices": [
+            "He destroyed the house in anger",
+            "He squeezed inside and gave Joe a soft coat, but then complained about space",
+            "He ran away to find polar bears",
+            "He let Joe go back home immediately"
+          ],
+          "answer": 1,
+          "explanation": "The Snowman praised the house, squeezed in, threw Joe a coat, but then complained when Joe squeezed in beside him."
+        }
+      ]
+    }
+  ]
+}
