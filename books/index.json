@@ -1,0 +1,11 @@
+{
+  "books": [
+    {
+      "id": "aesops-fables",
+      "title": "Aesop's Fables",
+      "author": "Aesop",
+      "level": "A2",
+      "description": "Short classic fables with a clear moral — good for early reading comprehension practice."
+    }
+  ]
+}
