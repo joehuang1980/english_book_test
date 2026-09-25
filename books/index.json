@@ -1,6 +1,13 @@
 {
   "books": [
     {
+      "id": "the-land-of-joe-and-the-magic-snowman",
+      "title": "The Land of Joe and the Magic Snowman",
+      "author": "Enid Blyton",
+      "level": "A2",
+      "description": "Joe peeps into the Land of Ice and Snow and is caught by a lonely Magic Snowman who makes him a servant."
+    },
+    {
       "id": "the-land-of-goodies",
       "title": "The Land of Goodies",
       "author": "Enid Blyton",
